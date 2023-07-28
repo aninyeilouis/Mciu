@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_person_add_24"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_house_24"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/studentPortal"
+            android:icon="@drawable/student_portal"
+            android:title="@string/student_portal" />
+        <item
+            android:id="@+id/courseRegistration"
+            android:icon="@drawable/course_registration"
+            android:title="@string/course_registration" />
+        <item
+            android:id="@+id/staff_login"
+            android:icon="@drawable/staff_login"
+            android:title="@string/staff" />
+        <item
+            android:id="@+id/LMS2"
+            android:icon="@drawable/lms"
+            android:title="@string/lms" />
+        <item
+            android:id="@+id/checkResult"
+            android:icon="@drawable/check_result"
+            android:title="@string/Checkresult" />
+        <item
+            android:id="@+id/mydetails"
+            android:icon="@drawable/contact"
+            android:title="@string/contactus" />
+    </group>
+</menu>

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Mciu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">mciu.edu.ng</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Admission</string>
+    <string name="menu_slideshow">Campus life</string>
+    <string name="mciu">Michael And Cecilia ibru uninveristy</string>
+    <string name="music">Injalm Musics</string>
+    <string name="movies">Injalm Movies</string>
+    <string name="news">News</string>
+    <string name="share1">Share App</string>
+    <string name="contactus">Contact us</string>
+    <string name="activity">Work now</string>
+    <string name="refer">Referral link</string>
+    <string name="profile">Profile</string>
+    <string name="aboutus">About us</string>
+    <string name="title_activity_share">share</string>
+    <string name="student_portal">Student portal</string>
+    <string name="lms">LMS</string>
+    <string name="staff">Staff Login</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="Checkresult">Check Result</string>
+    <string name="course_registration">Course Registration</string>
+    <string name="title_activity_banner_ads">Banner_ads_activity</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <!-- -
+        This is an ad unit ID for a banner test ad. Replace with your own banner ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="banner_ad_unit_id">-app-pub-4383625002093203/6522276475</string>
+    <string name="banner_ad_unit">-app-pub-4383625002093203/6522276475</string>
+    <string name="interstitial_ad_unit_id">-app-pub-4383625002093203/1444524164</string>
+    <string name="rate">Rate ⭐️⭐️⭐️⭐️</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="mciu.edu.ng.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="mciu.edu.ng.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="mciu.edu.ng.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/LMS2"
+        android:name="mciu.edu.ng.ui.LMS"
+        android:label="Learning management system"
+        tools:layout="@layout/fragment_l_m_s" />
+    <fragment
+        android:id="@+id/staff_login"
+        android:name="mciu.edu.ng.ui.StaffLogin"
+        android:label="Staff Login"
+        tools:layout="@layout/fragment_staff_login" />
+    <fragment
+        android:id="@+id/checkResult"
+        android:name="mciu.edu.ng.ui.CheckResult"
+        android:label="Student result portal"
+        tools:layout="@layout/fragment_check_result" />
+    <activity
+        android:id="@+id/mydetails"
+        android:name="mciu.edu.ng.Mydetails"
+        android:label="App under maintenance"
+        tools:layout="@layout/activity_mydetails" />
+    <fragment
+        android:id="@+id/studentPortal"
+        android:name="mciu.edu.ng.ui.StudentPortal"
+        android:label="Student portal"
+        tools:layout="@layout/fragment_student_portal" />
+    <fragment
+        android:id="@+id/courseRegistration"
+        android:name="mciu.edu.ng.ui.CourseRegistration"
+        android:label="course_registration_fragment"
+        tools:layout="@layout/course_registration_fragment" />
+</navigation>
